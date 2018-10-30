@@ -1,0 +1,16 @@
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (1,1);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (1,2);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (2,3);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (2,4);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (3,5);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (3,6);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (4,7);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (4,8);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (5,9);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (5,10);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (6,11);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (6,12);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (6,13);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (7,14);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (7,15);
+INSERT INTO Medico_has_Paciente (Medico_id,Paciente_id)  VALUES (7,16);
