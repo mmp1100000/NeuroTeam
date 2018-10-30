@@ -41,7 +41,6 @@ CREATE TABLE IF NOT EXISTS `neuroteam`.`Paciente` (
   `nombre` VARCHAR(45) NULL,
   `apellidos` VARCHAR(45) NULL,
   `nss` VARCHAR(45) NULL,
-  `edad` INT NULL,
   `genero` VARCHAR(10) NULL,
   `altura` DOUBLE NULL,
   `peso` DOUBLE NULL,
