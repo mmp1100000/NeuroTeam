@@ -19,8 +19,7 @@ class Connection:
 
     def make_query(self, query):
         self.db_connection_cursor.execute(query)
-        for res in self.db_connection_cursor:
-            print(res)
+        return self.db_connection_cursor
 
     def close(self):
         self.db_connection.close()
