@@ -81,9 +81,9 @@ DROP TABLE IF EXISTS `neuroteam`.`Informe` ;
 
 CREATE TABLE IF NOT EXISTS `neuroteam`.`Informe` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `sintomas` VARCHAR(45) NULL,
+  `sintomas` VARCHAR(200) NULL,
   `fecha` DATETIME NULL,
-  `Diagnostico` VARCHAR(45) NULL,
+  `diagnostico` VARCHAR(45) NULL,
   `Medico_has_Paciente_Medico_id` INT NOT NULL,
   `Medico_has_Paciente_Paciente_id` INT NOT NULL,
   PRIMARY KEY (`id`),
