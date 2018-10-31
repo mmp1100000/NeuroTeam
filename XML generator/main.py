@@ -7,4 +7,5 @@ test = MysqlToXml(Connection(mysql.connector.connect(
         user="root",
         passwd="qwerty",
         database="neuroteam",
-        port=3306)), database_name="neuroteam")
+        port=3306)),
+        database_name="neuroteam")
