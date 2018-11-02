@@ -37,7 +37,7 @@ class MysqlToXml:
 
         return root
 
-    def check_all_pk(self, table_name):  # @TODO
+    def check_all_pk(self, table_name):  # @TODO fix this function in order to replace for Medico_has_Paciente
         get_pk = self.connection.make_query("show index from " + table_name + "where Key_name = 'PRIMARY';")
         print(get_pk)
         get_ncol = self.connection.make_query(
