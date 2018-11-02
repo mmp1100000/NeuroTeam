@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 8.0.12, for macos10.13 (x86_64)
+
 --
 -- Host: localhost    Database: neuroteam
 -- ------------------------------------------------------
@@ -153,4 +153,8 @@ CREATE TABLE `Tratamiento` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- -----------------------------------------------------
+-- Table `neuroteam`.`Prueba_medica`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `neuroteam`.`Prueba_medica` ;
 -- Dump completed on 2018-11-02 12:08:20

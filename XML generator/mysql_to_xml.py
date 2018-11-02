@@ -1,15 +1,15 @@
-from mysql_connector import Connection
-from xml.etree.ElementTree import Element, SubElement, Comment, tostring
+from xml.dom import minidom
+from xml.etree.ElementTree import Element, SubElement, tostring
 
 
 class MysqlToXml:
-    def __init__(self, connection, database_name):
+    def __init__(self, connection, database_name, path):
         self.connection = connection
         root = Element(database_name)
         for table in self.get_tables():
             self.parse_table(table, root)
 
-        print(tostring(root))
+        self.to_file(tree=tostring(root),path=path)
 
     def get_tables(self):
         query = self.connection.make_query("SHOW TABLES;")
@@ -27,3 +27,9 @@ class MysqlToXml:
                 SubElement(table_root, table_columns[i]).text = str(row[i])
 
         return root
+
+    @staticmethod
+    def to_file(path, tree):
+        xmlstr = minidom.parseString(tree).toprettyxml(indent="   ")
+        with open(path, "w") as f:
+            f.write(xmlstr)
