@@ -21,13 +21,12 @@ class MysqlToXml:
     def parse_table(self, table_name, root):
         query = self.connection.make_query("SELECT * FROM " + table_name + ";")
         table_columns = query.column_names
-        if not (table_name == "Medico_has_Paciente"):
+        if not (table_name == "medico_has_paciente"):
             for row in query:
                 table_root = SubElement(root, table_name, {table_columns[0]: str(row[0])})
                 for i in list(range(1, len(table_columns))):
                     SubElement(table_root, table_columns[i]).text = str(row[i])
         else:
-
             for row in query:
                 attr_dict = dict()
                 for i in list(range(0, len(table_columns))):
