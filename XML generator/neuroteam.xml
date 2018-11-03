@@ -1,129 +1,113 @@
 <?xml version="1.0" ?>
 <neuroteam>
-   <Informe id="1">
-      <id>1</id>
-      <sintomas>...</sintomas>
-      <fecha>2018-05-01 00:00:00</fecha>
-      <diagnostico>Huntington</diagnostico>
-      <medico_id>1</medico_id>
-      <paciente_id>1</paciente_id>
-   </Informe>
-   <Informe id="2">
-      <id>2</id>
-      <sintomas>...</sintomas>
-      <fecha>2015-04-09 00:00:00</fecha>
-      <diagnostico>Epilepsia</diagnostico>
-      <medico_id>4</medico_id>
-      <paciente_id>8</paciente_id>
-   </Informe>
-   <Informe id="3">
-      <id>3</id>
-      <sintomas>...</sintomas>
-      <fecha>2018-10-15 00:00:00</fecha>
-      <diagnostico>Alzheimer</diagnostico>
-      <medico_id>2</medico_id>
-      <paciente_id>3</paciente_id>
-   </Informe>
-   <Informe id="4">
-      <id>4</id>
-      <sintomas>...</sintomas>
-      <fecha>2017-12-01 00:00:00</fecha>
-      <diagnostico>Parkinson</diagnostico>
-      <medico_id>2</medico_id>
-      <paciente_id>4</paciente_id>
-   </Informe>
-   <Informe id="5">
-      <id>5</id>
-      <sintomas>...</sintomas>
-      <fecha>2016-05-01 00:00:00</fecha>
-      <diagnostico>Alzheimer</diagnostico>
-      <medico_id>3</medico_id>
-      <paciente_id>5</paciente_id>
-   </Informe>
-   <Informe id="6">
-      <id>6</id>
-      <sintomas>...</sintomas>
-      <fecha>2017-02-14 00:00:00</fecha>
-      <diagnostico>Parkinson</diagnostico>
-      <medico_id>3</medico_id>
-      <paciente_id>6</paciente_id>
-   </Informe>
-   <Informe id="7">
-      <id>7</id>
-      <sintomas>...</sintomas>
-      <fecha>2018-02-12 00:00:00</fecha>
-      <diagnostico>Huntington</diagnostico>
-      <medico_id>4</medico_id>
-      <paciente_id>7</paciente_id>
-   </Informe>
-   <Informe id="8">
-      <id>8</id>
-      <sintomas>...</sintomas>
-      <fecha>2015-04-09 00:00:00</fecha>
-      <diagnostico>Epilepsia</diagnostico>
-      <medico_id>4</medico_id>
-      <paciente_id>8</paciente_id>
-   </Informe>
    <Medico id="1">
-      <id>1</id>
       <nombre>Juan</nombre>
       <apellidos>Lopez Gutierrez</apellidos>
       <licencia>2930485</licencia>
    </Medico>
    <Medico id="2">
-      <id>2</id>
       <nombre>Felipe</nombre>
       <apellidos>Gomez Maldonado</apellidos>
       <licencia>3940567</licencia>
    </Medico>
    <Medico id="3">
-      <id>3</id>
       <nombre>Antonio</nombre>
       <apellidos>Gonzalez Godoy</apellidos>
       <licencia>6958493</licencia>
    </Medico>
    <Medico id="4">
-      <id>4</id>
       <nombre>Jose Antonio</nombre>
       <apellidos>Lopez Wilzinki</apellidos>
       <licencia>2940573</licencia>
    </Medico>
    <Medico id="5">
-      <id>5</id>
       <nombre>Javier</nombre>
       <apellidos>Casado</apellidos>
       <licencia>3940598</licencia>
    </Medico>
    <Medico id="6">
-      <id>6</id>
       <nombre>Jaime</nombre>
       <apellidos>Parry</apellidos>
       <licencia>2948567</licencia>
    </Medico>
    <Medico id="7">
-      <id>7</id>
       <nombre>Andres</nombre>
       <apellidos>Rovira Coronado</apellidos>
       <licencia>2934956</licencia>
    </Medico>
-   <Medico_has_Paciente Medico_id="1" Paciente_id="1"/>
-   <Medico_has_Paciente Medico_id="1" Paciente_id="2"/>
-   <Medico_has_Paciente Medico_id="2" Paciente_id="3"/>
-   <Medico_has_Paciente Medico_id="2" Paciente_id="4"/>
-   <Medico_has_Paciente Medico_id="3" Paciente_id="5"/>
-   <Medico_has_Paciente Medico_id="3" Paciente_id="6"/>
-   <Medico_has_Paciente Medico_id="4" Paciente_id="7"/>
-   <Medico_has_Paciente Medico_id="4" Paciente_id="8"/>
-   <Medico_has_Paciente Medico_id="5" Paciente_id="9"/>
-   <Medico_has_Paciente Medico_id="5" Paciente_id="10"/>
-   <Medico_has_Paciente Medico_id="6" Paciente_id="11"/>
-   <Medico_has_Paciente Medico_id="6" Paciente_id="12"/>
-   <Medico_has_Paciente Medico_id="6" Paciente_id="13"/>
-   <Medico_has_Paciente Medico_id="7" Paciente_id="14"/>
-   <Medico_has_Paciente Medico_id="7" Paciente_id="15"/>
-   <Medico_has_Paciente Medico_id="7" Paciente_id="16"/>
-   <Paciente id="1">
-      <id>1</id>
+   <informe id="1">
+      <sintomas>...</sintomas>
+      <fecha>2018-05-01 00:00:00</fecha>
+      <diagnostico>Huntington</diagnostico>
+      <medico_id>1</medico_id>
+      <paciente_id>1</paciente_id>
+   </informe>
+   <informe id="2">
+      <sintomas>...</sintomas>
+      <fecha>2015-04-09 00:00:00</fecha>
+      <diagnostico>Epilepsia</diagnostico>
+      <medico_id>4</medico_id>
+      <paciente_id>8</paciente_id>
+   </informe>
+   <informe id="3">
+      <sintomas>...</sintomas>
+      <fecha>2018-10-15 00:00:00</fecha>
+      <diagnostico>Alzheimer</diagnostico>
+      <medico_id>2</medico_id>
+      <paciente_id>3</paciente_id>
+   </informe>
+   <informe id="4">
+      <sintomas>...</sintomas>
+      <fecha>2017-12-01 00:00:00</fecha>
+      <diagnostico>Parkinson</diagnostico>
+      <medico_id>2</medico_id>
+      <paciente_id>4</paciente_id>
+   </informe>
+   <informe id="5">
+      <sintomas>...</sintomas>
+      <fecha>2016-05-01 00:00:00</fecha>
+      <diagnostico>Alzheimer</diagnostico>
+      <medico_id>3</medico_id>
+      <paciente_id>5</paciente_id>
+   </informe>
+   <informe id="6">
+      <sintomas>...</sintomas>
+      <fecha>2017-02-14 00:00:00</fecha>
+      <diagnostico>Parkinson</diagnostico>
+      <medico_id>3</medico_id>
+      <paciente_id>6</paciente_id>
+   </informe>
+   <informe id="7">
+      <sintomas>...</sintomas>
+      <fecha>2018-02-12 00:00:00</fecha>
+      <diagnostico>Huntington</diagnostico>
+      <medico_id>4</medico_id>
+      <paciente_id>7</paciente_id>
+   </informe>
+   <informe id="8">
+      <sintomas>...</sintomas>
+      <fecha>2015-04-09 00:00:00</fecha>
+      <diagnostico>Epilepsia</diagnostico>
+      <medico_id>4</medico_id>
+      <paciente_id>8</paciente_id>
+   </informe>
+   <medico_has_paciente Medico_id="1" Paciente_id="1"/>
+   <medico_has_paciente Medico_id="1" Paciente_id="2"/>
+   <medico_has_paciente Medico_id="2" Paciente_id="3"/>
+   <medico_has_paciente Medico_id="2" Paciente_id="4"/>
+   <medico_has_paciente Medico_id="3" Paciente_id="5"/>
+   <medico_has_paciente Medico_id="3" Paciente_id="6"/>
+   <medico_has_paciente Medico_id="4" Paciente_id="7"/>
+   <medico_has_paciente Medico_id="4" Paciente_id="8"/>
+   <medico_has_paciente Medico_id="5" Paciente_id="9"/>
+   <medico_has_paciente Medico_id="5" Paciente_id="10"/>
+   <medico_has_paciente Medico_id="6" Paciente_id="11"/>
+   <medico_has_paciente Medico_id="6" Paciente_id="12"/>
+   <medico_has_paciente Medico_id="6" Paciente_id="13"/>
+   <medico_has_paciente Medico_id="7" Paciente_id="14"/>
+   <medico_has_paciente Medico_id="7" Paciente_id="15"/>
+   <medico_has_paciente Medico_id="7" Paciente_id="16"/>
+   <paciente id="1">
       <nombre>Juan</nombre>
       <apellidos>Palomo García</apellidos>
       <nss>100200300123</nss>
@@ -131,9 +115,8 @@
       <altura>1.74</altura>
       <peso>89.25</peso>
       <fecha_nacimiento>1964-10-01</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="2">
-      <id>2</id>
+   </paciente>
+   <paciente id="2">
       <nombre>Pedro</nombre>
       <apellidos>González Caballero</apellidos>
       <nss>120200990183</nss>
@@ -141,9 +124,8 @@
       <altura>1.71</altura>
       <peso>73.75</peso>
       <fecha_nacimiento>1997-01-20</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="3">
-      <id>3</id>
+   </paciente>
+   <paciente id="3">
       <nombre>Lourdes</nombre>
       <apellidos>García Maldonado</apellidos>
       <nss>100200300123</nss>
@@ -151,9 +133,8 @@
       <altura>1.74</altura>
       <peso>89.25</peso>
       <fecha_nacimiento>1964-10-01</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="4">
-      <id>4</id>
+   </paciente>
+   <paciente id="4">
       <nombre>Juana</nombre>
       <apellidos>Palomo García</apellidos>
       <nss>200245630123</nss>
@@ -161,9 +142,8 @@
       <altura>1.68</altura>
       <peso>61.0</peso>
       <fecha_nacimiento>1979-09-04</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="5">
-      <id>5</id>
+   </paciente>
+   <paciente id="5">
       <nombre>Sofía María</nombre>
       <apellidos>Romero Díaz</apellidos>
       <nss>992020035321</nss>
@@ -171,9 +151,8 @@
       <altura>1.84</altura>
       <peso>81.25</peso>
       <fecha_nacimiento>1964-03-02</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="6">
-      <id>6</id>
+   </paciente>
+   <paciente id="6">
       <nombre>Patricia</nombre>
       <apellidos>Palomo García</apellidos>
       <nss>23054037013</nss>
@@ -181,9 +160,8 @@
       <altura>1.67</altura>
       <peso>57.24</peso>
       <fecha_nacimiento>1990-08-19</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="7">
-      <id>7</id>
+   </paciente>
+   <paciente id="7">
       <nombre>Eduardo</nombre>
       <apellidos>Montosa Fernández</apellidos>
       <nss>032133256744</nss>
@@ -191,9 +169,8 @@
       <altura>1.72</altura>
       <peso>73.25</peso>
       <fecha_nacimiento>1994-02-01</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="8">
-      <id>8</id>
+   </paciente>
+   <paciente id="8">
       <nombre>Narciso</nombre>
       <apellidos>López Ramírez</apellidos>
       <nss>123123675649</nss>
@@ -201,9 +178,8 @@
       <altura>1.68</altura>
       <peso>80.35</peso>
       <fecha_nacimiento>1975-10-11</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="9">
-      <id>9</id>
+   </paciente>
+   <paciente id="9">
       <nombre>María del Mar</nombre>
       <apellidos>Beltrán Sánchez</apellidos>
       <nss>100200300123</nss>
@@ -211,9 +187,8 @@
       <altura>1.74</altura>
       <peso>89.25</peso>
       <fecha_nacimiento>1964-10-01</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="10">
-      <id>10</id>
+   </paciente>
+   <paciente id="10">
       <nombre>Carmen</nombre>
       <apellidos>Aguilera García</apellidos>
       <nss>104400300123</nss>
@@ -221,9 +196,8 @@
       <altura>1.58</altura>
       <peso>58.25</peso>
       <fecha_nacimiento>1934-07-29</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="11">
-      <id>11</id>
+   </paciente>
+   <paciente id="11">
       <nombre>María del Pilar</nombre>
       <apellidos>Ruiz Roca</apellidos>
       <nss>583729487591</nss>
@@ -231,9 +205,8 @@
       <altura>1.57</altura>
       <peso>70.21</peso>
       <fecha_nacimiento>1927-03-23</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="12">
-      <id>12</id>
+   </paciente>
+   <paciente id="12">
       <nombre>Fernanda</nombre>
       <apellidos>Martínez Soria</apellidos>
       <nss>100200378453</nss>
@@ -241,9 +214,8 @@
       <altura>1.67</altura>
       <peso>60.15</peso>
       <fecha_nacimiento>1946-05-16</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="13">
-      <id>13</id>
+   </paciente>
+   <paciente id="13">
       <nombre>José Manuel</nombre>
       <apellidos>Suárez del Río</apellidos>
       <nss>123166579100</nss>
@@ -251,9 +223,8 @@
       <altura>1.74</altura>
       <peso>71.25</peso>
       <fecha_nacimiento>2003-06-20</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="14">
-      <id>14</id>
+   </paciente>
+   <paciente id="14">
       <nombre>Clara</nombre>
       <apellidos>García Cano</apellidos>
       <nss>187785426712</nss>
@@ -261,9 +232,8 @@
       <altura>1.74</altura>
       <peso>59.25</peso>
       <fecha_nacimiento>1954-12-01</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="15">
-      <id>15</id>
+   </paciente>
+   <paciente id="15">
       <nombre>Julia</nombre>
       <apellidos>Ramos Gómez</apellidos>
       <nss>235465768312</nss>
@@ -271,9 +241,8 @@
       <altura>1.39</altura>
       <peso>38.9</peso>
       <fecha_nacimiento>2009-01-27</fecha_nacimiento>
-   </Paciente>
-   <Paciente id="16">
-      <id>16</id>
+   </paciente>
+   <paciente id="16">
       <nombre>Juana</nombre>
       <apellidos>Martos Quesada</apellidos>
       <nss>100200344513</nss>
@@ -281,5 +250,5 @@
       <altura>1.64</altura>
       <peso>54.33</peso>
       <fecha_nacimiento>1969-04-15</fecha_nacimiento>
-   </Paciente>
+   </paciente>
 </neuroteam>
