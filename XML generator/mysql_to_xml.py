@@ -2,6 +2,8 @@ from xml.dom import minidom
 from xml.etree.ElementTree import Element, SubElement, tostring
 
 
+# @ TODO possible improvement: http://code.activestate.com/recipes/578503-validate-xml-with-schemalocation/
+
 class MysqlToXml:
     def __init__(self, connection, database_name, path):
         self.connection = connection
@@ -36,7 +38,7 @@ class MysqlToXml:
 
         return root
 
-    def check_all_pk(self, table_name):  # @TODO fix this function in order to replace for Medico_has_Paciente
+    def check_all_pk(self, table_name):  # @ TODO fix this function in order to replace for Medico_has_Paciente
         get_pk = self.connection.make_query("show index from " + table_name + "where Key_name = 'PRIMARY';")
 
         get_ncol = self.connection.make_query(
