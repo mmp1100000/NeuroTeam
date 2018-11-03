@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+
+<xs:element name="paciente">
+  <xs:complexType>
+    <xs:all>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="apellidos" type="xs:string"/>
+      <xs:element name="nss" type="xs:string"/>
+      <xs:element name="genero" type="xs:string"/>
+      <xs:element name="altura" type="xs:decimal"/>
+      <xs:element name="peso" type="xs:decimal"/>
+      <xs:element name="fecha_nacimiento" type="xs:date"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:attribute name="id" type="xs:integer" use="required"/>
+</xs:element>
+
+<xs:element name="prueba_medica">
+  <xs:complexType>
+    <xs:all>
+      <xs:element name="fecha" type="xs:date"/>
+      <xs:element name="conclusion" type="xs:string"/>
+      <xs:element name="informe_id" type="xs:integer"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:attribute name="id" type="xs:integer" use="required"/>
+</xs:element>
+
+<xs:element name="informe">
+  <xs:complexType>
+    <xs:all>
+      <xs:element name="sintomas" type="xs:string"/>
+      <xs:element name="fecha" type="xs:date"/>
+      <xs:element name="diagnostico" type="xs:string"/>
+      <xs:element name="medico_id" type="xs:integer"/>
+      <xs:element name="paciente_id" type="xs:integer"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:attribute name="id" type="xs:integer" use="required"/>
+</xs:element>
+
+<xs:element name="tratamiento">
+  <xs:complexType>
+    <xs:all>
+      <xs:element name="fecha_ini" type="xs:date"/>
+      <xs:element name="fecha_fin" type="xs:date"/>
+      <xs:element name="descripcion" type="xs:string"/>
+      <xs:element name="posologia" type="xs:string"/>
+      <xs:element name="informe_id" type="xs:integer"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:attribute name="id" type="xs:integer" use="required"/>
+</xs:element>
+
+<xs:element name="archivo_medico">
+  <xs:complexType>
+    <xs:all>
+      <xs:element name="documento" type="xs:string"/>
+      <xs:element name="Prueba_medica_id" type="xs:integer"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:attribute name="id" type="xs:integer" use="required"/>
+</xs:element>
+
+<xs:element name="medico">
+  <xs:complexType>
+    <xs:all>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="apellidos" type="xs:string"/>
+      <xs:element name="licencia" type="xs:string"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:attribute name="id" type="xs:string" use="required"/>
+</xs:element>
+
+<xs:element name="medico_has_paciente">
+  <xs:attribute name="medico_id" type="xs:string" use="required"/>
+  <xs:attribute name="paciente_id" type="xs:string" use="required"/>
+</xs:element>
+
+</xs:schema>
