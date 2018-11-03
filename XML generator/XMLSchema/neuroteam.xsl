@@ -8,7 +8,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
   <h2>Neuroteam</h2>
   <table border="1">
-    <tr bgcolor="#9acd32">
+    <tr bgcolor="#32cdcd">
       <th>id</th>
       <th>nombre</th>
       <th>apellidos</th>
@@ -20,7 +20,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </tr>
     <xsl:for-each select="neuroteam/paciente">
     <tr>
-      <td><xsl:value-of select="id"/></td>
+      <td><xsl:value-of select="@id"/></td>
       <td><xsl:value-of select="nombre"/></td>
       <td><xsl:value-of select="apellidos"/></td>
       <td><xsl:value-of select="nss"/></td>
