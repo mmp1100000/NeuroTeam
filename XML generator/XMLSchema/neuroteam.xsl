@@ -5,12 +5,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="/">
   <html>
+    <head>
+      <meta charset="UTF-8"/>
+          <link rel="stylesheet" href="XMLSchema/css/style.css"/>
+    </head>
   <body>
-  <h2>Neuroteam</h2>
-
   <h3>Pacientes</h3>
-  <table border="1">
-    <tr bgcolor="#32cdcd">
+  <table class="container">
+    <tr>
       <th>id</th>
       <th>nombre</th>
       <th>apellidos</th>
@@ -35,8 +37,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   </table>
 
   <h3>Médicos</h3>
-  <table border="1">
-    <tr bgcolor="#32cdcd">
+  <table  class="container">
+    <tr>
       <th>id</th>
       <th>nombre</th>
       <th>apellidos</th>
@@ -53,8 +55,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   </table>
 
   <h3>Informes</h3>
-  <table border="1">
-    <tr bgcolor="#32cdcd">
+  <table class="container">
+    <tr>
       <th>id</th>
       <th>Sintomas</th>
       <th>Fecha Consulta</th>
@@ -75,19 +77,36 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   </table>
 
   <h3>Medico atiende a paciente</h3>
-  <table border="1">
-    <tr bgcolor="#32cdcd">
-      <th>Medico</th>
-      <th>Paciente</th>
+  <table class="container">
+    <tr>
+      <th colspan="3">Medico</th>
+      <th colspan="3">Paciente</th>
+    </tr>
+    <tr>
+      <th>Apellidos</th>
+      <th>Nombre</th>
+      <th>Licencia</th>
+      <th>Apellidos</th>
+      <th>Nombre</th>
+      <th>nss</th>
     </tr>
     <xsl:for-each select="neuroteam/medico_has_paciente">
+    <xsl:variable name="medico_id">
+      <xsl:value-of select="@Medico_id"/>
+    </xsl:variable>
+    <xsl:variable name="paciente_id">
+      <xsl:value-of select="@Paciente_id"/>
+    </xsl:variable>
     <tr>
-      <td><xsl:value-of select="../Medico/nombre"/></td>
-      <td><xsl:value-of select="medico_id"/></td>
+      <td><xsl:value-of select="/neuroteam/Medico[@id=$medico_id]/apellidos"/></td>
+      <td><xsl:value-of select="/neuroteam/Medico[@id=$medico_id]/nombre"/></td>
+      <td><xsl:value-of select="/neuroteam/Medico[@id=$medico_id]/licencia"/></td>
+      <td><xsl:value-of select="/neuroteam/paciente[@id=$paciente_id]/apellidos"/></td>
+      <td><xsl:value-of select="/neuroteam/paciente[@id=$paciente_id]/nombre"/></td>
+      <td><xsl:value-of select="/neuroteam/paciente[@id=$paciente_id]/nss"/></td>
     </tr>
     </xsl:for-each>
   </table>
-
   </body>
   </html>
 </xsl:template>
