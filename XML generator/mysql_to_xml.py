@@ -4,10 +4,14 @@ from xml.etree.ElementTree import Element, SubElement, tostring
 
 # @ TODO possible improvement: http://code.activestate.com/recipes/578503-validate-xml-with-schemalocation/
 
+
+
 class MysqlToXml:
-    def __init__(self, connection, database_name, path):
+    def __init__(self, connection, database_name, path, xsi_location):
         self.connection = connection
-        root = Element(database_name)
+        root = Element(database_name,
+                       {"xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "xsi:schemaLocation": xsi_location})
         for table in self.get_tables():
             self.parse_table(table, root)
 
@@ -51,5 +55,8 @@ class MysqlToXml:
     @staticmethod
     def to_file(path, tree):
         xmlstr = minidom.parseString(tree).toprettyxml(indent="   ")
+        
         with open(path, "w") as f:
             f.write(xmlstr)
+
+
