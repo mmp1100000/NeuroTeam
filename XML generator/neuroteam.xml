@@ -1,6 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="XMLSchema/neuroteam.xsl"?>
-<neuroteam>
+<neuroteam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="XMLSchema/neuroteam.xsd">
    <Medico id="1">
       <nombre>Juan</nombre>
       <apellidos>Lopez Gutierrez</apellidos>
