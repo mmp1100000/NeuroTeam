@@ -1,4 +1,4 @@
-NeuroTeam
+**NeuroTeam**
 
 
 El componente de exportación a XML se encuentra en la ruta Neuroteam/XMLgenerator y comprende los script:
