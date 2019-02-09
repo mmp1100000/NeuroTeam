@@ -58,14 +58,14 @@
       <paciente_id>8</paciente_id>
    </informe>
    <informe id="9">
-      <sintomas>crisis epiléptica, mareos, dificultad para ha</sintomas>
+      <sintomas>crisis epilÃ©ptica, mareos, dificultad para ha</sintomas>
       <fecha>None</fecha>
       <diagnostico>Epilepsia</diagnostico>
       <medico_id>5</medico_id>
       <paciente_id>9</paciente_id>
    </informe>
    <informe id="10">
-      <sintomas>crisis epiléptica, dificultad para hablar, ri</sintomas>
+      <sintomas>crisis epilÃ©ptica, dificultad para hablar, ri</sintomas>
       <fecha>None</fecha>
       <diagnostico>Epilepsia</diagnostico>
       <medico_id>5</medico_id>
@@ -79,21 +79,21 @@
       <paciente_id>11</paciente_id>
    </informe>
    <informe id="12">
-      <sintomas>Fiebre alta, Manchas de color rojo-púrpura en</sintomas>
+      <sintomas>Fiebre alta, Manchas de color rojo-pÃºrpura en</sintomas>
       <fecha>None</fecha>
       <diagnostico>Meningitis</diagnostico>
       <medico_id>6</medico_id>
       <paciente_id>12</paciente_id>
    </informe>
    <informe id="13">
-      <sintomas>Súbita confusión, dificultad para hablar o en</sintomas>
+      <sintomas>SÃºbita confusiÃ³n, dificultad para hablar o en</sintomas>
       <fecha>None</fecha>
       <diagnostico>Derrame cerebral</diagnostico>
       <medico_id>6</medico_id>
       <paciente_id>13</paciente_id>
    </informe>
    <informe id="14">
-      <sintomas>Súbita confusión, dificultad para hablar o en</sintomas>
+      <sintomas>SÃºbita confusiÃ³n, dificultad para hablar o en</sintomas>
       <fecha>None</fecha>
       <diagnostico>Derrame cerebral</diagnostico>
       <medico_id>7</medico_id>
@@ -113,41 +113,41 @@
       <medico_id>7</medico_id>
       <paciente_id>16</paciente_id>
    </informe>
-   <medico id="1">
+   <Medico id="1">
       <nombre>Juan</nombre>
       <apellidos>Lopez Gutierrez</apellidos>
       <licencia>2930485</licencia>
-   </medico>
-   <medico id="2">
+   </Medico>
+   <Medico id="2">
       <nombre>Felipe</nombre>
       <apellidos>Gomez Maldonado</apellidos>
       <licencia>3940567</licencia>
-   </medico>
-   <medico id="3">
+   </Medico>
+   <Medico id="3">
       <nombre>Antonio</nombre>
       <apellidos>Gonzalez Godoy</apellidos>
       <licencia>6958493</licencia>
-   </medico>
-   <medico id="4">
+   </Medico>
+   <Medico id="4">
       <nombre>Jose Antonio</nombre>
       <apellidos>Lopez Wilzinki</apellidos>
       <licencia>2940573</licencia>
-   </medico>
-   <medico id="5">
+   </Medico>
+   <Medico id="5">
       <nombre>Javier</nombre>
       <apellidos>Casado</apellidos>
       <licencia>3940598</licencia>
-   </medico>
-   <medico id="6">
+   </Medico>
+   <Medico id="6">
       <nombre>Jaime</nombre>
       <apellidos>Parry</apellidos>
       <licencia>2948567</licencia>
-   </medico>
-   <medico id="7">
+   </Medico>
+   <Medico id="7">
       <nombre>Andres</nombre>
       <apellidos>Rovira Coronado</apellidos>
       <licencia>2934956</licencia>
-   </medico>
+   </Medico>
    <medico_has_paciente Medico_id="1" Paciente_id="1"/>
    <medico_has_paciente Medico_id="1" Paciente_id="2"/>
    <medico_has_paciente Medico_id="2" Paciente_id="3"/>
@@ -166,7 +166,7 @@
    <medico_has_paciente Medico_id="7" Paciente_id="16"/>
    <paciente id="1">
       <nombre>Juan</nombre>
-      <apellidos>Palomo García</apellidos>
+      <apellidos>Palomo GarcÃ­a</apellidos>
       <nss>100200300123</nss>
       <genero>Hombre</genero>
       <altura>1.74</altura>
@@ -175,7 +175,7 @@
    </paciente>
    <paciente id="2">
       <nombre>Pedro</nombre>
-      <apellidos>González Caballero</apellidos>
+      <apellidos>GonzÃ¡lez Caballero</apellidos>
       <nss>120200990183</nss>
       <genero>Hombre</genero>
       <altura>1.71</altura>
@@ -184,7 +184,7 @@
    </paciente>
    <paciente id="3">
       <nombre>Lourdes</nombre>
-      <apellidos>García Maldonado</apellidos>
+      <apellidos>GarcÃ­a Maldonado</apellidos>
       <nss>100200300123</nss>
       <genero>Mujer</genero>
       <altura>1.74</altura>
@@ -193,7 +193,7 @@
    </paciente>
    <paciente id="4">
       <nombre>Juana</nombre>
-      <apellidos>Palomo García</apellidos>
+      <apellidos>Palomo GarcÃ­a</apellidos>
       <nss>200245630123</nss>
       <genero>Mujer</genero>
       <altura>1.68</altura>
@@ -201,8 +201,8 @@
       <fecha_nacimiento>1979-09-04</fecha_nacimiento>
    </paciente>
    <paciente id="5">
-      <nombre>Sofía María</nombre>
-      <apellidos>Romero Díaz</apellidos>
+      <nombre>SofÃ­a MarÃ­a</nombre>
+      <apellidos>Romero DÃ­az</apellidos>
       <nss>992020035321</nss>
       <genero>Mujer</genero>
       <altura>1.84</altura>
@@ -211,7 +211,7 @@
    </paciente>
    <paciente id="6">
       <nombre>Patricia</nombre>
-      <apellidos>Palomo García</apellidos>
+      <apellidos>Palomo GarcÃ­a</apellidos>
       <nss>23054037013</nss>
       <genero>Mujer</genero>
       <altura>1.67</altura>
@@ -220,7 +220,7 @@
    </paciente>
    <paciente id="7">
       <nombre>Eduardo</nombre>
-      <apellidos>Montosa Fernández</apellidos>
+      <apellidos>Montosa FernÃ¡ndez</apellidos>
       <nss>032133256744</nss>
       <genero>Hombre</genero>
       <altura>1.72</altura>
@@ -229,7 +229,7 @@
    </paciente>
    <paciente id="8">
       <nombre>Narciso</nombre>
-      <apellidos>López Ramírez</apellidos>
+      <apellidos>LÃ³pez RamÃ­rez</apellidos>
       <nss>123123675649</nss>
       <genero>Hombre</genero>
       <altura>1.68</altura>
@@ -237,8 +237,8 @@
       <fecha_nacimiento>1975-10-11</fecha_nacimiento>
    </paciente>
    <paciente id="9">
-      <nombre>María del Mar</nombre>
-      <apellidos>Beltrán Sánchez</apellidos>
+      <nombre>MarÃ­a del Mar</nombre>
+      <apellidos>BeltrÃ¡n SÃ¡nchez</apellidos>
       <nss>100200300123</nss>
       <genero>Hombre</genero>
       <altura>1.74</altura>
@@ -247,7 +247,7 @@
    </paciente>
    <paciente id="10">
       <nombre>Carmen</nombre>
-      <apellidos>Aguilera García</apellidos>
+      <apellidos>Aguilera GarcÃ­a</apellidos>
       <nss>104400300123</nss>
       <genero>Mujer</genero>
       <altura>1.58</altura>
@@ -255,7 +255,7 @@
       <fecha_nacimiento>1934-07-29</fecha_nacimiento>
    </paciente>
    <paciente id="11">
-      <nombre>María del Pilar</nombre>
+      <nombre>MarÃ­a del Pilar</nombre>
       <apellidos>Ruiz Roca</apellidos>
       <nss>583729487591</nss>
       <genero>Mujer</genero>
@@ -265,7 +265,7 @@
    </paciente>
    <paciente id="12">
       <nombre>Fernanda</nombre>
-      <apellidos>Martínez Soria</apellidos>
+      <apellidos>MartÃ­nez Soria</apellidos>
       <nss>100200378453</nss>
       <genero>Mujer</genero>
       <altura>1.67</altura>
@@ -273,8 +273,8 @@
       <fecha_nacimiento>1946-05-16</fecha_nacimiento>
    </paciente>
    <paciente id="13">
-      <nombre>José Manuel</nombre>
-      <apellidos>Suárez del Río</apellidos>
+      <nombre>JosÃ© Manuel</nombre>
+      <apellidos>SuÃ¡rez del RÃ­o</apellidos>
       <nss>123166579100</nss>
       <genero>Hombre</genero>
       <altura>1.74</altura>
@@ -283,7 +283,7 @@
    </paciente>
    <paciente id="14">
       <nombre>Clara</nombre>
-      <apellidos>García Cano</apellidos>
+      <apellidos>GarcÃ­a Cano</apellidos>
       <nss>187785426712</nss>
       <genero>Mujer</genero>
       <altura>1.74</altura>
@@ -292,7 +292,7 @@
    </paciente>
    <paciente id="15">
       <nombre>Julia</nombre>
-      <apellidos>Ramos Gómez</apellidos>
+      <apellidos>Ramos GÃ³mez</apellidos>
       <nss>235465768312</nss>
       <genero>Mujer</genero>
       <altura>1.39</altura>

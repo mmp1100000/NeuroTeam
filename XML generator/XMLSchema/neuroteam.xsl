@@ -79,8 +79,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <h3>Medico atiende a paciente</h3>
   <table class="container">
     <tr>
-      <th colspan="3">Medico</th>
-      <th colspan="3">Paciente</th>
+      <th colspan="3" align="center">Medico</th>
+      <th colspan="3" align="center">Paciente</th>
     </tr>
     <tr>
       <th>Apellidos</th>
