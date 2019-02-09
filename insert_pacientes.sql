@@ -35,7 +35,7 @@ INSERT INTO Paciente (nombre, apellidos, nss, genero, altura, peso, fecha_nacimi
 VALUES ('Fernanda', 'Martínez Soria', '100200378453', 'Mujer', 1.67, 60.150, '1946-05-16');
 
 INSERT INTO Paciente (nombre, apellidos, nss, genero, altura, peso, fecha_nacimiento)
-VALUES ('José Manuel', 'Suárez del Río', '123166579100','Hombre', 1.74, 71.250, '2003-06-20');
+VALUES ('José Manuel', 'Suárez del Río', '123166579100', 'Hombre', 1.74, 71.250, '2003-06-20');
 
 INSERT INTO Paciente (nombre, apellidos, nss, genero, altura, peso, fecha_nacimiento)
 VALUES ('Clara', 'García Cano', '187785426712', 'Mujer', 1.74, 59.250, '1954-12-01');

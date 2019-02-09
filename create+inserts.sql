@@ -4,6 +4,9 @@
 -- ------------------------------------------------------
 -- Server version	8.0.13
 
+create database neuroteam;
+use neuroteam;
+
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -93,7 +96,7 @@ CREATE TABLE `informe` (
 
 LOCK TABLES `informe` WRITE;
 /*!40000 ALTER TABLE `informe` DISABLE KEYS */;
-INSERT INTO `informe` VALUES (1,'...','2018-05-01 00:00:00','Huntington',1,1),(2,'...','2015-04-09 00:00:00','Epilepsia',4,8),(3,'...','2018-10-15 00:00:00','Alzheimer',2,3),(4,'...','2017-12-01 00:00:00','Parkinson',2,4),(5,'...','2016-05-01 00:00:00','Alzheimer',3,5),(6,'...','2017-02-14 00:00:00','Parkinson',3,6),(7,'...','2018-02-12 00:00:00','Huntington',4,7),(8,'...','2015-04-09 00:00:00','Epilepsia',4,8);
+INSERT INTO `informe` VALUES (1,'...','2018-05-01 00:00:00','Huntington',1,1),(2,'...','2015-04-09 00:00:00','Epilepsia',4,8),(3,'...','2018-10-15 00:00:00','Alzheimer',2,3),(4,'...','2017-12-01 00:00:00','Parkinson',2,4),(5,'...','2016-05-01 00:00:00','Alzheimer',3,5),(6,'...','2017-02-14 00:00:00','Parkinson',3,6),(7,'...','2018-02-12 00:00:00','Huntington',4,7),(8,'...','2015-04-09 00:00:00','Epilepsia',4,8), (9, 'crisis epiléptica, mareos, dificultad para hablar','30-10-2018','Epilepsia',5,9), (10, 'crisis epiléptica, dificultad para hablar, rigidez muscular','23-04-2017','Epilepsia',5,10), (11, 'Fiebre alta, Dolor de cabeza intenso, Rigidez de la nuca, Vómitos bruscos, Somnolencia','02-06-2018','Meningitis',6,11), (12,'Fiebre alta, Manchas de color rojo-púrpura en la piel','25-01-2016','Meningitis',6,12), (13,'Súbita confusión, dificultad para hablar o entender','14-12-2015','Derrame cerebral',6,13), (14,'Súbita confusión, dificultad para hablar o entender','12-08-2017','Derrame cerebral',7,14), (15,'convulsiones','11-11-2015','Tumor cerebral',7,15), (16,'convulsiones','29-01-2018','Tumor cerebral',7,16);
 /*!40000 ALTER TABLE `informe` ENABLE KEYS */;
 UNLOCK TABLES;
 

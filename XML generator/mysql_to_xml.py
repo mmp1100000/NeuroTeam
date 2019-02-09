@@ -5,7 +5,6 @@ from xml.etree.ElementTree import Element, SubElement, tostring
 # @ TODO possible improvement: http://code.activestate.com/recipes/578503-validate-xml-with-schemalocation/
 
 
-
 class MysqlToXml:
     def __init__(self, connection, database_name, path, xsi_location):
         self.connection = connection
@@ -55,8 +54,11 @@ class MysqlToXml:
     @staticmethod
     def to_file(path, tree):
         xmlstr = minidom.parseString(tree).toprettyxml(indent="   ")
-        
-        with open(path, "w") as f:
-            f.write(xmlstr)
+        first_line = xmlstr[0:xmlstr.find("\n")] + "\n"
+        stylesheet_line = "<?xml-stylesheet type=\"text/xsl\" href=\"XMLSchema/"+ path +".xsl\"?>\n"
+        xml_content = xmlstr[xmlstr.find("\n")+1:]
+        xml_total = first_line + stylesheet_line + xml_content
+        with open(path+".xml", "w") as f:
+            f.write(xml_total)
 
 
