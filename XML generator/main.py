@@ -10,4 +10,5 @@ test = MysqlToXml(
         database="neuroteam",
         port=3306)),
         database_name="neuroteam",
-        path="neuroteam", xsi_location= "XMLSchema/neuroteam.xsd")
+        path="neuroteam.xml",
+        xsi_location="XMLSchema/neuroteam.xsd")
